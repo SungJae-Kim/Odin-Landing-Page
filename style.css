@@ -1,4 +1,88 @@
 body {
+    min-height: 100vh;
     background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoplaceholder {
+    font-size: 32px;
+}
+
+.headerlinks {
+    display:flex;
+    text-decoration: none;
+    font-size: 16px;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.Title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.HeroText {
+    font-size: 48px;
+}
+
+.infosection {
+    background-color: white;
+    color:black;
+}
+.infotitle {
+    display: flex;
+    justify-content: Center;
+    font-size: 32px;
+}
+.infographic {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    background-color: #DDDDDD;
+    font-size: 32px;
+    padding: 200px;
+    flex-wrap: wrap;
+}
+
+.credit {
+    font-size: 16px;
+    justify-content:end;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+}
+button {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #3882F6;
+}

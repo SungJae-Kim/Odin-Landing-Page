@@ -1,0 +1,1 @@
+Landing Page Exercise for the Odin Project
