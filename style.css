@@ -112,6 +112,9 @@ a {
 
 .signup {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signupbox {
@@ -120,8 +123,9 @@ a {
     justify-content: center;
     background-color: #3882F6;
     align-items: center;
-    padding: 50px;
-    margin: 30px 600px;
+    height: 100px;
+    width: 600px;
+    margin: 30px;
 }
 
 .signleft {
